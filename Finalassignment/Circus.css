@@ -20,7 +20,7 @@ main{
     text-align: center;
     display: inline-block;
     font-size:xx-large;
-    margin-left: 10px;
+    margin-left: 200px;
 }
 
 .mainimg {
@@ -37,9 +37,10 @@ main{
     background-color: rgb(244, 189, 244);
     border-radius: 500px;
     margin-bottom: 20px;
-    margin-right: 200px;
+    margin-right: 30px;
     display: inline-block;
 }
+
 .circle:hover {
     background-color: rgb(181, 105, 253);
 }
@@ -92,7 +93,7 @@ nav ul {
 nav li a {
     display: block;
     text-decoration: none;
-    font-size:xx-large;
+    font-size:larger;
     color:rgb(83, 83, 83);
     font-weight: bold;
 }
@@ -111,9 +112,23 @@ aside {
 }
 
 main {
-    border: solid 3px black;
     grid-column: span 4;
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 0px;
+}
+
+main section {
+    border: 3px solid black;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.Vid1 {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.Vid2 {
+    margin-left: 50px;
 }

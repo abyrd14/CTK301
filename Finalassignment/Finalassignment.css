@@ -101,7 +101,7 @@ nav li a:hover {
 
 main {
     border: solid 3px black;
-    grid-column: span 4;
+    grid-column: span 6;
     margin-left: 20px;
     margin-right: 20px;
 }
