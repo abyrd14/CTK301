@@ -12,7 +12,7 @@ body {
 }
 
 main{
-    grid-column: span 4;
+    grid-column: span 6;
 }
 
 .header {
@@ -123,6 +123,7 @@ main section {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    grid-column: span 6;
 }
 
 .Vid1 {
